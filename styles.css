@@ -444,11 +444,6 @@ img { max-width: 100%; }
   font-weight: 500;
 }
 
-.stat-divider {
-  width: 1px;
-  height: 40px;
-  background: rgba(255,255,255,.15);
-}
 
 .hero-scroll-indicator {
   position: absolute;
@@ -1253,7 +1248,6 @@ img { max-width: 100%; }
    ========================================= */
 @media (max-width: 767px) {
   .hero-stats { gap: 20px; }
-  .stat-divider { height: 28px; }
   .services-grid { grid-template-columns: 1fr; }
   .testimonials-grid { grid-template-columns: 1fr; }
   .cta-actions { flex-direction: column; align-items: center; }
